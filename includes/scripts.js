@@ -28,22 +28,17 @@ $(function() {
 		"Z" : "B",
 	};
 	
-	$("textarea").keyup(function() {
-		var area = "#" + $(this).attr("id");
-		var txt = $(area).val();
+	$("#input").keyup(function() {
+		var txt = $(this).val();
 		
 		txt = txt.toUpperCase();
-		$(area).val(txt);
+		$(this).val(txt);
 		
 		txt = txt.replace(/[A-Z]/g, function(s) {
 			return CHARSET[s];
 		});
 		
-		if(area == "#english") {
-			$("#ente-isla").val(txt);
-		} else {
-			$("#english").val(txt);
-		}
+		$("#output").val(txt);
 	});
 	
 	//-- Reset Fields --

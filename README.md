@@ -18,4 +18,4 @@ License
 This code is licensed under the MIT license. Check out the LICENSE file for more information.
 
 
-[preview]: http://TakeshiYoshikawa.github.io/Ente-Isla/
+[preview]: http://karai17.github.io/Ente-Isla/

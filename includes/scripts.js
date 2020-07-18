@@ -11,12 +11,12 @@ $(function() {
 		"I" : "I",
 		"J" : "S",
 		"K" : "R",
-		"L" : "Q",
+		"L" : "L",
 		"M" : "P",
 		"N" : "N",
 		"O" : "O",
 		"P" : "M",
-		"Q" : "L",
+		"Q" : "Q",
 		"R" : "K",
 		"S" : "J",
 		"T" : "H",
@@ -27,7 +27,7 @@ $(function() {
 		"Y" : "C",
 		"Z" : "B",
 	};
-	
+
 	$("#input").keyup(function() {
 		var txt = $(this).val();
 		
